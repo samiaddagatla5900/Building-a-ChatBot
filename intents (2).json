@@ -1,0 +1,327 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay"
+      ],
+      "responses": [
+        "Hello",
+        "Hi",
+        "Hi there"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?"
+      ],
+      "responses": [
+        "I'm Joana, your bot assistant",
+        "I'm Joana, an Artificial Intelligent bot"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Joana.",
+        "I'm Joana!",
+        "Just call me as Joana"
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+
+    {
+      "tag": "trackorder",
+      "patterns": [
+        "where is my order?",
+        "I haven't received my order yet",
+        "order is late"
+      ],
+      "responses": [
+        "I apologize, you haven't received th order yet, let me connect you with the restaurent",
+        "I'm so sorry, let me check with the delivery executive to get the exact location of him"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns":[
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and AMEX",
+        "We accept most major credit cards"
+      ]
+    },
+
+    {
+      "tag": "missing",
+      "patterns":[
+        "missing food from package",
+        "part of item is missing"
+      ],
+      "responses": [
+        "I apologize, the package has missing food, let me check with the restaurent for more details and help you with quick resolution",
+        "I apologize, would you like to have 10% of refund for the missing food?"
+      ]
+    },
+
+    {
+      "tag": "cancel",
+      "patterns": [
+        "I want to cancel my order",
+        "help in cancelling the order",
+        "order cancellation"
+      ],
+      "responses": [
+        "help us with the reason for cancelling the order",
+        "there will be a cancelling charge as order is already preparaing, would you still like to cancel the order?"
+        
+      ]
+    },
+
+   {
+      "tag": "modifyorder",
+      "patterns": [
+        "I want to modify my order",
+        "Want to change my order",
+        "add food in item"       
+      ],
+      "responses": [
+        "Please help us, which item you'd like to add?",
+        "What modification you'd like to have",
+        "Sure, let me connect you with the restaurent for the modification"
+      ]
+    },
+
+   {
+      "tag": "says delivered but not received",
+      "patterns": [
+        "my order says delivered, but not received",
+        "order hasn't reached yet, even it says delivered"
+      ],
+      "responses": [
+        "apologize for the inconvenience, let me connect with the delivery executive for exact status",
+        "I apologize, let me check with the delivery executive for exact status, kindly, wait for 2 minutes"
+      ]
+    },    
+
+    {
+      "tag": "change delivery address",
+      "patterns": [
+        "I want to change my delivery address",
+        "Can I change my delivery address?",
+         "edit my delivery address"
+      ],
+      "responses": [
+        "Go to setting > address > change",
+        "you can check the step on the website : https://fooddelivery/addresschange"
+        ]
+    },
+    
+    {
+      "tag": "invoice",
+      "patterns": [
+        "want the order invoice",
+        "can i download the order invoice?",
+        "how to get order invoice?"
+        ],
+      "responses": [
+        "download the order invoice from setting>invoice>download",
+        "go to setting>invoice>download for invoice"
+      ]
+    },
+    
+    {
+      "tag": "close account",
+      "patterns": [
+        "can I close my account?",
+        "deactivate the account",
+        "how to close my account?",
+        "steps to deactivate the account"
+      ],
+      "responses": [
+        "sure, steps to close account is : setting>account>close",
+        "find the step on our website : https://foodapp/closeaccount",
+        "yes, I can close the account, shall I proceed?"
+      ]
+    },
+    
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint to assist you further",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+      
+      {
+          "tag":"covid-19 measures",
+          "patterns": [
+              "do you follow covid-19 protocols?",
+              "covid-19 measures are accompanied with your staff?",
+              "safety delivery rules are followed?"
+              ],
+          "responses": [
+              "yes,all covid-19 protocols are followed",
+              "All covid-19 safety measures are followed by our staff",
+              "All our orders are delivered according to covid-19 rules"
+              ]
+      },
+      
+      
+      {
+          "tag":"delivery charges",
+          "patterns": [
+              "Do you take delivery charges?",
+              "are there any delivery charges to be paid?",
+              "is the delivery free?"
+              ],
+          "responses": [
+              "delivery charges are added to the total amount of your order",
+              "delivery charges are applies to all orders below 399",
+              "free delivery is applicable on orders upto 399"
+              ]
+      },
+      
+      
+      
+      {
+          "tag":"pickup",
+          "patterns": [
+              "how do i view pickup requests?",
+              "how do i schedule my pickup order?",
+              "is there a pickup fee?",
+              "what are the pickup options available?"
+              ],
+          "responses": [
+              "steps to view pickup requests :settings>account>pickup",
+              "steps to schedule pickup orders :settings>account>schedule pickup>enter time",
+              "there is no pickup fee",
+              "you can choose your pickup options in the settings"
+              ]
+      },
+      
+      
+      
+      {
+          "tag":"delivery time",
+          "patterns": [
+              "how long does it takes for the order to be delivered?",
+              "by what time will the order be delivered?",
+              "how long is the delivery time?"
+              ],
+          "responses": [
+              "the order will be delivered in 30 mins",
+              "it takes about 30 mins for the order to be delivered",
+              "our delivery time is 30 mins after your order is placed",
+              "the order will arrive at your doorstep in 30 mins after it is confirmed"
+              ]
+             
+      },
+      
+      
+      
+      {
+          "tag":"discounts",
+          "patterns": [
+              "how do i look for discount codes for my order?",
+              "do you provide any discount codes on orders?",
+              "do you have discount codes available for our orders?"
+              ],
+          "responses": [
+              "discount codes are available at the checkout",
+              "discount codes are applicable on orders above 299",
+              "discounts codes are applicable only on minimum order of 299"
+              ]
+      
+      },
+      
+      
+      
+      
+      {
+          "tag":"notifications",
+          "patterns": [
+              "how do i get notified about my orders?",
+              "do you send any notifications about the orders placed?",
+              "how will i get to know about my order status?"
+              ],
+          "responses": [
+              "notifications about the orders are sent to the registered mobile number and email id",
+              "notifications are provided once the order is placed and after delivered to your doorstep",
+              "you will receive your order status notifications on your registered mobile number and email id",
+              "notifications are sent once your order has been confirmed"
+              ]
+      
+    }  
+  ]
+}
